@@ -1,0 +1,64 @@
+:root{
+    /* Primary */
+--Dark_cyan: hsl(158, 36%, 37%);
+--Cream: hsl(30, 38%, 92%);
+    /* Neutral */
+--Very_dark_blue: hsl(212, 21%, 14%);
+--Dark_grayish_blue: hsl(228, 12%, 48%);
+--White: hsl(0, 0%, 100%);
+}
+/* globales */
+.contenedor{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    background-color: var(--Cream);
+}
+h1{
+    font-family: 'Fraunces', serif;
+    color: var(--Very_dark_blue);
+}
+p{
+    color: var(--Dark_grayish_blue);
+}
+/* tarjeta */
+.tarjeta{
+    width: 375px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--White);
+}
+
+.tarjeta__imagen{
+    background-image: url(../images/image-product-mobile.jpg);
+    background-size: cover;
+    width: 375px;
+    height: 300px;
+}
+/* precio */
+.precio{
+    display: flex;
+    align-items:center;
+}
+.precio__oferta{
+    color: var(--Dark_cyan);
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.precio__anterior{
+    text-decoration: line-through;
+}
+/* boton */
+.boton{
+    text-transform: uppercase;
+    color: var(--White);
+    background-color: var(--Dark_cyan);
+    padding: 20px 40px;
+    border-style: none;
+    border-radius: 10px;
+}
